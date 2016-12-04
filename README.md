@@ -8,6 +8,7 @@ and [pyalpm](https://git.archlinux.org/users/remy/pyalpm.git/) to figure out whi
 * python >= 3.4
 * python-requests
 * pyalpm
+* sudo (for --sync)
 
 ## Usage
 

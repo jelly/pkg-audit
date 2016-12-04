@@ -64,7 +64,7 @@ def parse_args():
     parser.add_argument('--vulnerable', dest='vulnerable', action='store_false',
             help='Filter on packages which have no fixed version in the repositories yet')
     parser.add_argument('--sync', dest='sync', action='store_true',
-            help='Sync the Pacman database before checking vulnerabilities')
+            help='Sync the Pacman database before checking vulnerabilities (requires sudo)')
     parser.add_argument('-V', '--version', action='version', version='%(prog)s (version {})'.format(VERSION))
     return parser.parse_args()
 

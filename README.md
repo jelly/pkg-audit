@@ -1,6 +1,6 @@
-# Arch Linux Audit
+# Arch Linux Package Audit
 
-Arch audit uses the [Arch Linux Security Tracker](https://github.com/anthraxx/arch-security-tracker)
+Pkg audit uses the [Arch Linux Security Tracker](https://github.com/anthraxx/arch-security-tracker)
 and [pyalpm](https://git.archlinux.org/users/remy/pyalpm.git/) to figure out which packages on your system are vulnerable and can be updated.
 
 ## Dependencies
@@ -12,4 +12,4 @@ and [pyalpm](https://git.archlinux.org/users/remy/pyalpm.git/) to figure out whi
 
 ## Usage
 
-$ python arch-audit.py
+$ python pkg-audit.py

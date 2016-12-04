@@ -35,13 +35,12 @@ def main(options):
 
         # for every pkg, check if affected
         for pkg in pkgs:
-            if avg['status'] == 'Vulnerable':
-                if not options.upgrade:
+            if avg['status'] == 'Vulnerable' and options.upgrade:
                     print('{}-{} is vulnerable to {}'.format(pkg.name, pkg.version, avg['type']))
                     print('No fixed package in the repositories.')
                     print('AVG: {}/{}'.format(API_URL, avg['name']))
                     print('')
-            elif avg['status'] in status:
+            elif avg['status'] in status and options.vulnerable:
                 if vercmp(pkg.version, avg['fixed']) < 0:
                     print('{}-{} is vulnerable to {}'.format(pkg.name, pkg.version, avg['type']))
                     print('Upgrade to {}'.format(avg['fixed']))
@@ -53,8 +52,10 @@ def main(options):
 
 def parse_args():
     parser = argparse.ArgumentParser(description='audit installed packages against known vulnerabilities')
-    parser.add_argument('--upgrade', dest='upgrade', action='store_true',
+    parser.add_argument('--upgrade', dest='upgrade', action='store_false',
             help='Filter on packages which vulernablilties are fixed by performing a system upgrade')
+    parser.add_argument('--vulnerable', dest='vulnerable', action='store_false',
+            help='Filter on packages which have no fixed version in the repositories yet')
     parser.add_argument('-V', '--version', action='version', version='%(prog)s (version {})'.format(VERSION))
     return parser.parse_args()
 

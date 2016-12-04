@@ -46,7 +46,7 @@ def main(options):
                     print('Upgrade to {}'.format(avg['fixed']))
                     print('AVG: {}/{}'.format(API_URL, avg['name']))
                     for advisory in avg['advisories']:
-                        print('Advisory: {}/{}/generate/raw'.format(API_URL, advisory))
+                        print('Advisory: {}/{}/raw'.format(API_URL, advisory))
                     print('')
 
 

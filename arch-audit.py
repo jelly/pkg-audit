@@ -3,6 +3,7 @@
 
 import argparse
 import requests
+import subprocess
 import pycman
 from pyalpm import vercmp
 
@@ -21,6 +22,12 @@ def main(options):
         status = ['Testing', 'Fixed']
     else:
         status = ['Fixed']
+
+    # Unfortunately pyalpm does not allow us to set the dbpath to a
+    # 'fake' symlinked dbpath as 'checkupdates' does. Neither does it allow
+    # use config.init_with_config_and_options since it expects an argparse obj.
+    if options.sync:
+        subprocess.check_output(["sudo", "pacman", "-Sy"])
 
     # Fetch latest JSON API
     r = requests.get(API_URL + '/json')
@@ -56,6 +63,8 @@ def parse_args():
             help='Filter on packages which vulernablilties are fixed by performing a system upgrade')
     parser.add_argument('--vulnerable', dest='vulnerable', action='store_false',
             help='Filter on packages which have no fixed version in the repositories yet')
+    parser.add_argument('--sync', dest='sync', action='store_true',
+            help='Sync the Pacman database before checking vulnerabilities')
     parser.add_argument('-V', '--version', action='version', version='%(prog)s (version {})'.format(VERSION))
     return parser.parse_args()
 

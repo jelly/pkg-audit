@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+
 import argparse
 import requests
 import pycman
@@ -7,6 +8,7 @@ from pyalpm import vercmp
 
 
 VERSION = 0.1
+API_URL = 'http://45.32.158.89'
 
 
 def main(options):
@@ -16,7 +18,7 @@ def main(options):
     db = handle.get_localdb()
 
     # Fetch latest JSON API
-    r = requests.get('http://45.32.158.89/json')
+    r = requests.get(API_URL + '/json')
     data = r.json()
 
     for avg in data:

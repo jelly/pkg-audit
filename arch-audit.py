@@ -6,6 +6,9 @@ import pycman
 from pyalpm import vercmp
 
 
+VERSION = 0.1
+
+
 def main(options):
     # Initialize pyalpm
     configpath = '/etc/pacman.conf'
@@ -35,6 +38,7 @@ def main(options):
 def parse_args():
     parser = argparse.ArgumentParser(description='audit installed packages against known vulnerabilities')
     parser.add_argument('--upgradeable', dest='upgradeable', action='store_true', help='Filter on packages which vulernablilties are fixed by performing a system upgrade')
+    parser.add_argument('-V', '--version', action='version', version='%(prog)s (version {})'.format(VERSION))
     return parser.parse_args()
 
 

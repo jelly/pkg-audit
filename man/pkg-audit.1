@@ -2,9 +2,9 @@
 .SH NAME
 pkg-audit \- audit installed packages against known vulnerabilities
 .SH SYNOPSIS
-pkg-audit [-V]
+pkg-audit [-fV]
 
-pkg-audit [--{upgradable,vulnerable,sync}]
+pkg-audit [--{file,upgradable,vulnerable,sync}]
 .SH DESCRIPTION
 pkg-audit checks installed packages for known vulnerabilities for Arch Linux.
 
@@ -12,6 +12,11 @@ If you have a vulnerable package installed, you are advised to perform a full
 system upgrade.
 
 .SH FLAGS
+.PP
+\fI-f, file\fR
+.RS 4
+Load advisory's from a json file.
+.RE
 .PP
 \fI-h, --help\fR
 .RS 4

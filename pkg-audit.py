@@ -2,6 +2,7 @@
 
 
 import argparse
+import json
 import requests
 import subprocess
 import pycman
@@ -29,9 +30,12 @@ def main(options):
     if options.sync:
         subprocess.check_output(["sudo", "pacman", "-Sy"])
 
-    # Fetch latest JSON API
-    r = requests.get(API_URL + '/json')
-    data = r.json()
+    if options.file:
+        data = json.load(options.file)
+    else:
+        # Fetch latest JSON API
+        r = requests.get(API_URL + '/json')
+        data = r.json()
 
     for avg in data:
         search_str = '^({})$'.format('|'.join(avg['packages']))
@@ -59,6 +63,8 @@ def main(options):
 
 def parse_args():
     parser = argparse.ArgumentParser(description='audit installed packages against known vulnerabilities')
+    parser.add_argument('-f', '--file', type=argparse.FileType('r'),
+            help='Load advisories from a JSON file.')
     parser.add_argument('--upgradable', dest='upgradable', action='store_false',
             help='Filter on packages which vulernablilties are fixed by performing a system upgrade')
     parser.add_argument('--vulnerable', dest='vulnerable', action='store_false',

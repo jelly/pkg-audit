@@ -9,8 +9,8 @@ import pycman
 from pyalpm import vercmp
 
 
-VERSION = 0.1
-API_URL = 'http://45.32.158.89'
+VERSION = 0.2
+API_URL = 'http://security.archlinux.org'
 
 
 def main(options):

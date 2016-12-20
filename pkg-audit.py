@@ -10,7 +10,7 @@ from pyalpm import vercmp
 
 
 VERSION = 0.2
-API_URL = 'http://security.archlinux.org'
+API_URL = 'https://security.archlinux.org'
 
 
 def main(options):

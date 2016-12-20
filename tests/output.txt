@@ -1,0 +1,20 @@
+openjpeg2-2.1.2-2 is vulnerable to multiple issues
+No fixed package in the repositories.
+AVG: https://security.archlinux.org/AVG-54
+
+libtiff-4.0.7-2 is vulnerable to arbitrary code execution
+No fixed package in the repositories.
+AVG: https://security.archlinux.org/AVG-5
+
+jasper-1.900.31-1 is vulnerable to denial of service
+No fixed package in the repositories.
+AVG: https://security.archlinux.org/AVG-69
+
+bzip2-1.0.6-5 is vulnerable to denial of service
+No fixed package in the repositories.
+AVG: https://security.archlinux.org/AVG-4
+
+openssl-1.0.2.j-1 is vulnerable to improper cryptographic calculation
+No fixed package in the repositories.
+AVG: https://security.archlinux.org/AVG-67
+

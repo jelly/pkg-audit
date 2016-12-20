@@ -1,0 +1,2175 @@
+[
+  {
+    "name": "AVG-92",
+    "packages": [
+      "libraw"
+    ],
+    "status": "Unknown",
+    "severity": "Unknown",
+    "type": "unknown",
+    "affected": "0.16.1-1",
+    "fixed": "0.17.1-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2015-8367",
+      "CVE-2015-8366"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-76",
+    "packages": [
+      "gst-plugins-bad"
+    ],
+    "status": "Unknown",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "1.10.0-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9447",
+      "CVE-2016-9446",
+      "CVE-2016-9445"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-87",
+    "packages": [
+      "lib32-libtiff"
+    ],
+    "status": "Vulnerable",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "4.0.7-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2015-7554"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-54",
+    "packages": [
+      "openjpeg2"
+    ],
+    "status": "Vulnerable",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "2.1.2-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9118",
+      "CVE-2016-9117",
+      "CVE-2016-9116",
+      "CVE-2016-9115",
+      "CVE-2016-9114",
+      "CVE-2016-9113"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-5",
+    "packages": [
+      "libtiff"
+    ],
+    "status": "Vulnerable",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "4.0.7-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2015-7554"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-16",
+    "packages": [
+      "libwmf"
+    ],
+    "status": "Vulnerable",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "0.2.8.4-13",
+    "fixed": null,
+    "ticket": "49162",
+    "issues": [
+      "CVE-2016-9011",
+      "CVE-2015-4696",
+      "CVE-2015-4695",
+      "CVE-2015-4588",
+      "CVE-2015-0848",
+      "CVE-2009-3546",
+      "CVE-2009-1364",
+      "CVE-2007-3477",
+      "CVE-2007-3473",
+      "CVE-2007-3472",
+      "CVE-2007-2756",
+      "CVE-2007-0455",
+      "CVE-2006-3376"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-15",
+    "packages": [
+      "openfire"
+    ],
+    "status": "Vulnerable",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "4.0.4-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2015-6973",
+      "CVE-2015-6972"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-94",
+    "packages": [
+      "dovecot"
+    ],
+    "status": "Vulnerable",
+    "severity": "Medium",
+    "type": "denial of service",
+    "affected": "2.2.26.1-1",
+    "fixed": "2.2.27.1-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8652"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-69",
+    "packages": [
+      "jasper"
+    ],
+    "status": "Vulnerable",
+    "severity": "Medium",
+    "type": "denial of service",
+    "affected": "1.900.31-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8886"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-4",
+    "packages": [
+      "bzip2"
+    ],
+    "status": "Vulnerable",
+    "severity": "Medium",
+    "type": "denial of service",
+    "affected": "1.0.6-5",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-3189"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-9",
+    "packages": [
+      "greenbone-security-assistant"
+    ],
+    "status": "Vulnerable",
+    "severity": "Medium",
+    "type": "cross-site scripting",
+    "affected": "6.0.6-2",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-1926"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-68",
+    "packages": [
+      "lib32-openssl"
+    ],
+    "status": "Vulnerable",
+    "severity": "Low",
+    "type": "improper cryptographic calculation",
+    "affected": "1:1.0.2.j-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7055"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-67",
+    "packages": [
+      "openssl"
+    ],
+    "status": "Vulnerable",
+    "severity": "Low",
+    "type": "improper cryptographic calculation",
+    "affected": "1.0.2.j-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7055"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-7",
+    "packages": [
+      "libusbmuxd"
+    ],
+    "status": "Vulnerable",
+    "severity": "Low",
+    "type": "access restriction bypass",
+    "affected": "1.0.10-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5104"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-8",
+    "packages": [
+      "libimobiledevice"
+    ],
+    "status": "Vulnerable",
+    "severity": "Low",
+    "type": "access restriction bypass",
+    "affected": "1.2.0-3",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5104"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-105",
+    "packages": [
+      "php"
+    ],
+    "status": "Testing",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "7.0.12-1",
+    "fixed": "7.1.0-2",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9936",
+      "CVE-2016-9934",
+      "CVE-2016-9933"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-99",
+    "packages": [
+      "jasper"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "1.900.1-15",
+    "fixed": "1.900.5-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-1867",
+      "CVE-2015-5221",
+      "CVE-2014-9029",
+      "CVE-2014-8158",
+      "CVE-2014-8157",
+      "CVE-2014-8138",
+      "CVE-2014-8137",
+      "CVE-2011-4517",
+      "CVE-2011-4516",
+      "CVE-2008-3522",
+      "CVE-2008-3520"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-93",
+    "packages": [
+      "chromium"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "54.0.2840.100-1",
+    "fixed": "55.0.2883.75-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9652",
+      "CVE-2016-9651",
+      "CVE-2016-9650",
+      "CVE-2016-5226",
+      "CVE-2016-5225",
+      "CVE-2016-5224",
+      "CVE-2016-5223",
+      "CVE-2016-5222",
+      "CVE-2016-5221",
+      "CVE-2016-5220",
+      "CVE-2016-5219",
+      "CVE-2016-5218",
+      "CVE-2016-5217",
+      "CVE-2016-5216",
+      "CVE-2016-5215",
+      "CVE-2016-5214",
+      "CVE-2016-5213",
+      "CVE-2016-5212",
+      "CVE-2016-5211",
+      "CVE-2016-5210",
+      "CVE-2016-5209",
+      "CVE-2016-5208",
+      "CVE-2016-5207",
+      "CVE-2016-5206",
+      "CVE-2016-5205",
+      "CVE-2016-5204",
+      "CVE-2016-5203"
+    ],
+    "advisories": [
+      "ASA-201612-3"
+    ]
+  },
+  {
+    "name": "AVG-91",
+    "packages": [
+      "thunderbird"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "45.5.0-1",
+    "fixed": "45.5.1-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9079"
+    ],
+    "advisories": [
+      "ASA-201612-2"
+    ]
+  },
+  {
+    "name": "AVG-90",
+    "packages": [
+      "firefox"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "50.0-1",
+    "fixed": "50.0.2-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9079",
+      "CVE-2016-9078"
+    ],
+    "advisories": [
+      "ASA-201612-1"
+    ]
+  },
+  {
+    "name": "AVG-86",
+    "packages": [
+      "lib32-libtiff"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "4.0.6-2",
+    "fixed": "4.0.7-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9540",
+      "CVE-2016-9539",
+      "CVE-2016-9538",
+      "CVE-2016-9537",
+      "CVE-2016-9536",
+      "CVE-2016-9535",
+      "CVE-2016-9534",
+      "CVE-2016-9533",
+      "CVE-2016-9532",
+      "CVE-2016-9453",
+      "CVE-2016-9448",
+      "CVE-2016-9297",
+      "CVE-2016-9273",
+      "CVE-2016-6223",
+      "CVE-2016-5875",
+      "CVE-2016-5652",
+      "CVE-2016-5323",
+      "CVE-2016-5322",
+      "CVE-2016-5321",
+      "CVE-2016-5320",
+      "CVE-2016-5319",
+      "CVE-2016-5318",
+      "CVE-2016-5317",
+      "CVE-2016-5316",
+      "CVE-2016-5315",
+      "CVE-2016-5314",
+      "CVE-2016-5102",
+      "CVE-2016-3991",
+      "CVE-2016-3990",
+      "CVE-2016-3945",
+      "CVE-2016-3658",
+      "CVE-2016-3634",
+      "CVE-2016-3633",
+      "CVE-2016-3632",
+      "CVE-2016-3631",
+      "CVE-2016-3625",
+      "CVE-2016-3624",
+      "CVE-2016-3623",
+      "CVE-2016-3622",
+      "CVE-2016-3621",
+      "CVE-2016-3620",
+      "CVE-2016-3619",
+      "CVE-2016-3186",
+      "CVE-2015-8683",
+      "CVE-2015-8668",
+      "CVE-2015-8665",
+      "CVE-2015-7313",
+      "CVE-2014-8130",
+      "CVE-2014-8127",
+      "CVE-2010-2596"
+    ],
+    "advisories": [
+      "ASA-201611-27"
+    ]
+  },
+  {
+    "name": "AVG-85",
+    "packages": [
+      "libtiff"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "4.0.6-2",
+    "fixed": "4.0.7-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9540",
+      "CVE-2016-9539",
+      "CVE-2016-9538",
+      "CVE-2016-9537",
+      "CVE-2016-9536",
+      "CVE-2016-9535",
+      "CVE-2016-9534",
+      "CVE-2016-9533",
+      "CVE-2016-9532",
+      "CVE-2016-9453",
+      "CVE-2016-9448",
+      "CVE-2016-9297",
+      "CVE-2016-9273",
+      "CVE-2016-6223",
+      "CVE-2016-5875",
+      "CVE-2016-5652",
+      "CVE-2016-5323",
+      "CVE-2016-5322",
+      "CVE-2016-5321",
+      "CVE-2016-5320",
+      "CVE-2016-5319",
+      "CVE-2016-5318",
+      "CVE-2016-5317",
+      "CVE-2016-5316",
+      "CVE-2016-5315",
+      "CVE-2016-5314",
+      "CVE-2016-5102",
+      "CVE-2016-3991",
+      "CVE-2016-3990",
+      "CVE-2016-3945",
+      "CVE-2016-3658",
+      "CVE-2016-3634",
+      "CVE-2016-3633",
+      "CVE-2016-3632",
+      "CVE-2016-3631",
+      "CVE-2016-3625",
+      "CVE-2016-3624",
+      "CVE-2016-3623",
+      "CVE-2016-3622",
+      "CVE-2016-3621",
+      "CVE-2016-3620",
+      "CVE-2016-3619",
+      "CVE-2016-3186",
+      "CVE-2015-8683",
+      "CVE-2015-8668",
+      "CVE-2015-8665",
+      "CVE-2015-7313",
+      "CVE-2014-8130",
+      "CVE-2014-8127",
+      "CVE-2010-2596"
+    ],
+    "advisories": [
+      "ASA-201611-26"
+    ]
+  },
+  {
+    "name": "AVG-73",
+    "packages": [
+      "w3m"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "0.5.3.git20160413-1",
+    "fixed": "0.5.3.git20161031-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9442",
+      "CVE-2016-9441",
+      "CVE-2016-9440",
+      "CVE-2016-9439",
+      "CVE-2016-9438",
+      "CVE-2016-9437",
+      "CVE-2016-9436",
+      "CVE-2016-9435",
+      "CVE-2016-9434",
+      "CVE-2016-9433",
+      "CVE-2016-9432",
+      "CVE-2016-9431",
+      "CVE-2016-9430",
+      "CVE-2016-9429",
+      "CVE-2016-9428",
+      "CVE-2016-9426",
+      "CVE-2016-9425",
+      "CVE-2016-9424",
+      "CVE-2016-9423",
+      "CVE-2016-9422"
+    ],
+    "advisories": [
+      "ASA-201611-18"
+    ]
+  },
+  {
+    "name": "AVG-72",
+    "packages": [
+      "firefox"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "49.0.2-1",
+    "fixed": "50.0-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9077",
+      "CVE-2016-9076",
+      "CVE-2016-9075",
+      "CVE-2016-9073",
+      "CVE-2016-9071",
+      "CVE-2016-9070",
+      "CVE-2016-9068",
+      "CVE-2016-9067",
+      "CVE-2016-9066",
+      "CVE-2016-9064",
+      "CVE-2016-9063",
+      "CVE-2016-5297",
+      "CVE-2016-5296",
+      "CVE-2016-5292",
+      "CVE-2016-5291",
+      "CVE-2016-5290",
+      "CVE-2016-5289"
+    ],
+    "advisories": [
+      "ASA-201611-16"
+    ]
+  },
+  {
+    "name": "AVG-58",
+    "packages": [
+      "php"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "7.0.12-2",
+    "fixed": "7.0.13-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9138",
+      "CVE-2016-8670",
+      "CVE-2016-7568",
+      "CVE-2016-6911"
+    ],
+    "advisories": [
+      "ASA-201611-19"
+    ]
+  },
+  {
+    "name": "AVG-56",
+    "packages": [
+      "libxml2"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "2.9.4+4+g3169602-1",
+    "fixed": "2.9.4+12+ge905f08-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5131",
+      "CVE-2016-4658"
+    ],
+    "advisories": [
+      "ASA-201611-2"
+    ]
+  },
+  {
+    "name": "AVG-55",
+    "packages": [
+      "memcached"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "1.4.31-1",
+    "fixed": "1.4.32-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8706",
+      "CVE-2016-8705",
+      "CVE-2016-8704"
+    ],
+    "advisories": [
+      "ASA-201611-1"
+    ]
+  },
+  {
+    "name": "AVG-53",
+    "packages": [
+      "lib32-flashplugin"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "11.2.202.637-1",
+    "fixed": "11.2.202.643-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7855"
+    ],
+    "advisories": [
+      "ASA-201610-19"
+    ]
+  },
+  {
+    "name": "AVG-52",
+    "packages": [
+      "flashplugin"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "11.2.202.637-1",
+    "fixed": "11.2.202.643-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7855"
+    ],
+    "advisories": [
+      "ASA-201610-18"
+    ]
+  },
+  {
+    "name": "AVG-46",
+    "packages": [
+      "chromium"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "53.0.2785.143-1",
+    "fixed": "54.0.2840.59-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5194",
+      "CVE-2016-5193",
+      "CVE-2016-5192",
+      "CVE-2016-5191",
+      "CVE-2016-5190",
+      "CVE-2016-5189",
+      "CVE-2016-5188",
+      "CVE-2016-5187",
+      "CVE-2016-5186",
+      "CVE-2016-5185",
+      "CVE-2016-5184",
+      "CVE-2016-5183",
+      "CVE-2016-5182",
+      "CVE-2016-5181"
+    ],
+    "advisories": [
+      "ASA-201610-15"
+    ]
+  },
+  {
+    "name": "AVG-42",
+    "packages": [
+      "chromium"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "53.0.2785.116-1",
+    "fixed": "53.0.2785.143-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5178",
+      "CVE-2016-5177"
+    ],
+    "advisories": [
+      "ASA-201610-1"
+    ]
+  },
+  {
+    "name": "AVG-32",
+    "packages": [
+      "lib32-openssl"
+    ],
+    "status": "Not affected",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "1:1.1.0a-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-6309"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-31",
+    "packages": [
+      "openssl"
+    ],
+    "status": "Not affected",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "1.1.0a-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-6309"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-24",
+    "packages": [
+      "firefox"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "48.0.2-1",
+    "fixed": "49.0-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5284",
+      "CVE-2016-5283",
+      "CVE-2016-5282",
+      "CVE-2016-5281",
+      "CVE-2016-5280",
+      "CVE-2016-5279",
+      "CVE-2016-5278",
+      "CVE-2016-5277",
+      "CVE-2016-5276",
+      "CVE-2016-5275",
+      "CVE-2016-5274",
+      "CVE-2016-5273",
+      "CVE-2016-5272",
+      "CVE-2016-5271",
+      "CVE-2016-5270",
+      "CVE-2016-5257",
+      "CVE-2016-5256"
+    ],
+    "advisories": [
+      "ASA-201609-22"
+    ]
+  },
+  {
+    "name": "AVG-1",
+    "packages": [
+      "lib32-gdk-pixbuf2"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "2.34.0-1",
+    "fixed": "2.36.0+2+ga7c869a-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-6352"
+    ],
+    "advisories": [
+      "ASA-201611-12"
+    ]
+  },
+  {
+    "name": "AVG-2",
+    "packages": [
+      "gdk-pixbuf2"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "arbitrary code execution",
+    "affected": "2.34.0-2",
+    "fixed": "2.36.0+2+ga7c869a-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-6352"
+    ],
+    "advisories": [
+      "ASA-201610-9"
+    ]
+  },
+  {
+    "name": "AVG-14",
+    "packages": [
+      "jasper"
+    ],
+    "status": "Fixed",
+    "severity": "Critical",
+    "type": "multiple issues",
+    "affected": "1.900.1-15",
+    "fixed": "1.900.31-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9560",
+      "CVE-2016-9557",
+      "CVE-2016-9388",
+      "CVE-2016-9387",
+      "CVE-2016-9262",
+      "CVE-2016-8887",
+      "CVE-2016-8885",
+      "CVE-2016-8884",
+      "CVE-2016-8693",
+      "CVE-2016-8692",
+      "CVE-2016-8691",
+      "CVE-2016-8690",
+      "CVE-2016-2089",
+      "CVE-2015-8751",
+      "CVE-2015-5203"
+    ],
+    "advisories": [
+      "ASA-201612-9"
+    ]
+  },
+  {
+    "name": "AVG-104",
+    "packages": [
+      "linux-lts"
+    ],
+    "status": "Not affected",
+    "severity": "High",
+    "type": "denial of service",
+    "affected": "4.4.37-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9919"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-103",
+    "packages": [
+      "linux-grsec"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "denial of service",
+    "affected": "1:4.8.12.r201612062306-1",
+    "fixed": "1:4.8.12.r201612062306-2",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9919"
+    ],
+    "advisories": [
+      "ASA-201612-11"
+    ]
+  },
+  {
+    "name": "AVG-102",
+    "packages": [
+      "linux-zen"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "denial of service",
+    "affected": "4.8.12-2",
+    "fixed": "4.8.13-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9919"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-101",
+    "packages": [
+      "linux"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "denial of service",
+    "affected": "4.8.12-2",
+    "fixed": "4.8.12-3",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9919"
+    ],
+    "advisories": [
+      "ASA-201612-10"
+    ]
+  },
+  {
+    "name": "AVG-98",
+    "packages": [
+      "linux-zen"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "privilege escalation",
+    "affected": "4.8.12-1",
+    "fixed": "4.8.12-2",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8655"
+    ],
+    "advisories": [
+      "ASA-201612-8"
+    ]
+  },
+  {
+    "name": "AVG-97",
+    "packages": [
+      "linux-grsec"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "privilege escalation",
+    "affected": "1:4.8.12.r201612031658-1",
+    "fixed": "1:4.8.12.r201612031658-2",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8655"
+    ],
+    "advisories": [
+      "ASA-201612-5"
+    ]
+  },
+  {
+    "name": "AVG-96",
+    "packages": [
+      "linux-lts"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "privilege escalation",
+    "affected": "4.4.35-1",
+    "fixed": "4.4.36-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8655"
+    ],
+    "advisories": [
+      "ASA-201612-7"
+    ]
+  },
+  {
+    "name": "AVG-95",
+    "packages": [
+      "linux"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "privilege escalation",
+    "affected": "4.8.12-1",
+    "fixed": "4.8.12-2",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8655"
+    ],
+    "advisories": [
+      "ASA-201612-6"
+    ]
+  },
+  {
+    "name": "AVG-89",
+    "packages": [
+      "libdwarf"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "20161021-1",
+    "fixed": "20161124-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9558",
+      "CVE-2016-9480",
+      "CVE-2016-9276",
+      "CVE-2016-9275",
+      "CVE-2016-8681",
+      "CVE-2016-8680",
+      "CVE-2016-8679",
+      "CVE-2016-7511",
+      "CVE-2016-7510",
+      "CVE-2016-5044",
+      "CVE-2016-5043",
+      "CVE-2016-5041",
+      "CVE-2016-5040",
+      "CVE-2016-5037",
+      "CVE-2016-5035",
+      "CVE-2016-5033",
+      "CVE-2016-5032",
+      "CVE-2016-5031",
+      "CVE-2016-5030",
+      "CVE-2016-5029",
+      "CVE-2016-5028",
+      "CVE-2016-5027"
+    ],
+    "advisories": [
+      "ASA-201612-4"
+    ]
+  },
+  {
+    "name": "AVG-88",
+    "packages": [
+      "jasper"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "1.900.1-14",
+    "fixed": "1.900.1-15",
+    "ticket": "48511",
+    "issues": [
+      "CVE-2016-2116",
+      "CVE-2016-1577"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-84",
+    "packages": [
+      "tomcat6"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "6.0.47-1",
+    "fixed": "6.0.48-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8735",
+      "CVE-2016-6816"
+    ],
+    "advisories": [
+      "ASA-201611-22"
+    ]
+  },
+  {
+    "name": "AVG-83",
+    "packages": [
+      "vim"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "arbitrary command execution",
+    "affected": "8.0.0055-1",
+    "fixed": "8.0.0056-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-1248"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-82",
+    "packages": [
+      "neovim"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "arbitrary command execution",
+    "affected": "0.1.6-1",
+    "fixed": "0.1.7-1",
+    "ticket": "51927",
+    "issues": [
+      "CVE-2016-1248"
+    ],
+    "advisories": [
+      "ASA-201611-29"
+    ]
+  },
+  {
+    "name": "AVG-81",
+    "packages": [
+      "ntp"
+    ],
+    "status": "Not affected",
+    "severity": "High",
+    "type": "denial of service",
+    "affected": "4.2.8.p8-1",
+    "fixed": "4.2.8.p9-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9312"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-80",
+    "packages": [
+      "ntp"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "4.2.8.p8-1",
+    "fixed": "4.2.8.p9-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9311",
+      "CVE-2016-9310",
+      "CVE-2016-7434",
+      "CVE-2016-7433",
+      "CVE-2016-7431",
+      "CVE-2016-7429",
+      "CVE-2016-7428",
+      "CVE-2016-7427",
+      "CVE-2016-7426"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-79",
+    "packages": [
+      "ntp"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "4.2.8.p8-1",
+    "fixed": "4.2.8.p9-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9311",
+      "CVE-2016-9310",
+      "CVE-2016-7434",
+      "CVE-2016-7433",
+      "CVE-2016-7431",
+      "CVE-2016-7429",
+      "CVE-2016-7428",
+      "CVE-2016-7427",
+      "CVE-2016-7426"
+    ],
+    "advisories": [
+      "ASA-201611-28"
+    ]
+  },
+  {
+    "name": "AVG-78",
+    "packages": [
+      "wireshark-cli",
+      "wireshark-gtk",
+      "wireshark-qt"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "2.2.1-1",
+    "fixed": "2.2.2-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9376",
+      "CVE-2016-9375",
+      "CVE-2016-9374",
+      "CVE-2016-9373"
+    ],
+    "advisories": [
+      "ASA-201611-25",
+      "ASA-201611-23",
+      "ASA-201611-24"
+    ]
+  },
+  {
+    "name": "AVG-66",
+    "packages": [
+      "lib32-libcurl-gnutls"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "7.50.3-1",
+    "fixed": "7.51.0-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8625",
+      "CVE-2016-8624",
+      "CVE-2016-8623",
+      "CVE-2016-8621",
+      "CVE-2016-8619",
+      "CVE-2016-8618",
+      "CVE-2016-8617",
+      "CVE-2016-8616",
+      "CVE-2016-8615"
+    ],
+    "advisories": [
+      "ASA-201611-10"
+    ]
+  },
+  {
+    "name": "AVG-65",
+    "packages": [
+      "libcurl-gnutls"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "7.50.3-1",
+    "fixed": "7.51.0-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8625",
+      "CVE-2016-8624",
+      "CVE-2016-8623",
+      "CVE-2016-8622",
+      "CVE-2016-8621",
+      "CVE-2016-8619",
+      "CVE-2016-8617",
+      "CVE-2016-8616",
+      "CVE-2016-8615"
+    ],
+    "advisories": [
+      "ASA-201611-9"
+    ]
+  },
+  {
+    "name": "AVG-63",
+    "packages": [
+      "lib32-libcurl-compat"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "7.50.3-1",
+    "fixed": "7.51.0-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8625",
+      "CVE-2016-8624",
+      "CVE-2016-8623",
+      "CVE-2016-8621",
+      "CVE-2016-8619",
+      "CVE-2016-8618",
+      "CVE-2016-8617",
+      "CVE-2016-8616",
+      "CVE-2016-8615"
+    ],
+    "advisories": [
+      "ASA-201611-5"
+    ]
+  },
+  {
+    "name": "AVG-62",
+    "packages": [
+      "libcurl-compat"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "7.50.3-1",
+    "fixed": "7.51.0-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8625",
+      "CVE-2016-8624",
+      "CVE-2016-8623",
+      "CVE-2016-8622",
+      "CVE-2016-8621",
+      "CVE-2016-8619",
+      "CVE-2016-8617",
+      "CVE-2016-8616",
+      "CVE-2016-8615"
+    ],
+    "advisories": [
+      "ASA-201611-8"
+    ]
+  },
+  {
+    "name": "AVG-61",
+    "packages": [
+      "lib32-curl"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "7.50.3-1",
+    "fixed": "7.51.0-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8625",
+      "CVE-2016-8624",
+      "CVE-2016-8623",
+      "CVE-2016-8621",
+      "CVE-2016-8619",
+      "CVE-2016-8618",
+      "CVE-2016-8617",
+      "CVE-2016-8616",
+      "CVE-2016-8615"
+    ],
+    "advisories": [
+      "ASA-201611-4"
+    ]
+  },
+  {
+    "name": "AVG-60",
+    "packages": [
+      "curl"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "7.50.3-1",
+    "fixed": "7.51.0-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8625",
+      "CVE-2016-8624",
+      "CVE-2016-8623",
+      "CVE-2016-8622",
+      "CVE-2016-8621",
+      "CVE-2016-8620",
+      "CVE-2016-8619",
+      "CVE-2016-8617",
+      "CVE-2016-8616",
+      "CVE-2016-8615"
+    ],
+    "advisories": [
+      "ASA-201611-7"
+    ]
+  },
+  {
+    "name": "AVG-59",
+    "packages": [
+      "bind"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "denial of service",
+    "affected": "9.11.0-2",
+    "fixed": "9.11.0.P1-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8864"
+    ],
+    "advisories": [
+      "ASA-201611-3"
+    ]
+  },
+  {
+    "name": "AVG-57",
+    "packages": [
+      "python-django",
+      "python2-django"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "1.10.2-1",
+    "fixed": "1.10.3-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9014",
+      "CVE-2016-9013"
+    ],
+    "advisories": [
+      "ASA-201611-15",
+      "ASA-201611-14"
+    ]
+  },
+  {
+    "name": "AVG-50",
+    "packages": [
+      "linux-lts"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "privilege escalation",
+    "affected": "4.4.25-1",
+    "fixed": "4.4.26-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5195"
+    ],
+    "advisories": [
+      "ASA-201610-11"
+    ]
+  },
+  {
+    "name": "AVG-49",
+    "packages": [
+      "linux-grsec"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "privilege escalation",
+    "affected": "1:4.7.8.r201610161720-1",
+    "fixed": "1:4.7.10.r201610222037-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5195"
+    ],
+    "advisories": [
+      "ASA-201610-16"
+    ]
+  },
+  {
+    "name": "AVG-48",
+    "packages": [
+      "linux"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "privilege escalation",
+    "affected": "4.8.2-1",
+    "fixed": "4.8.3-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5195"
+    ],
+    "advisories": [
+      "ASA-201610-14"
+    ]
+  },
+  {
+    "name": "AVG-47",
+    "packages": [
+      "guile"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "2.0.12-1",
+    "fixed": "2.0.13-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8606",
+      "CVE-2016-8605"
+    ],
+    "advisories": [
+      "ASA-201610-10"
+    ]
+  },
+  {
+    "name": "AVG-40",
+    "packages": [
+      "imagemagick"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "6.9.5.10-1",
+    "fixed": "6.9.6.0-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7906",
+      "CVE-2016-7799"
+    ],
+    "advisories": [
+      "ASA-201610-6"
+    ]
+  },
+  {
+    "name": "AVG-39",
+    "packages": [
+      "wordpress"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "4.6.0-1",
+    "fixed": "4.6.1-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7169",
+      "CVE-2016-7168"
+    ],
+    "advisories": [
+      "ASA-201609-32"
+    ]
+  },
+  {
+    "name": "AVG-38",
+    "packages": [
+      "systemd"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "denial of service",
+    "affected": "231-1",
+    "fixed": "231-2",
+    "ticket": "51035",
+    "issues": [
+      "CVE-2016-7795"
+    ],
+    "advisories": [
+      "ASA-201610-2"
+    ]
+  },
+  {
+    "name": "AVG-37",
+    "packages": [
+      "c-ares"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "arbitrary code execution",
+    "affected": "1.11.0-1",
+    "fixed": "1.12.0-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5180"
+    ],
+    "advisories": [
+      "ASA-201609-31"
+    ]
+  },
+  {
+    "name": "AVG-36",
+    "packages": [
+      "bind"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "denial of service",
+    "affected": "9.10.4.P2-1",
+    "fixed": "9.10.4.P3-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-2776"
+    ],
+    "advisories": [
+      "ASA-201609-29"
+    ]
+  },
+  {
+    "name": "AVG-30",
+    "packages": [
+      "lib32-openssl"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "1:1.0.2.h-1",
+    "fixed": "1:1.0.2.i-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-6306",
+      "CVE-2016-6304",
+      "CVE-2016-6303",
+      "CVE-2016-6302",
+      "CVE-2016-2183",
+      "CVE-2016-2182",
+      "CVE-2016-2181",
+      "CVE-2016-2180",
+      "CVE-2016-2179",
+      "CVE-2016-2178",
+      "CVE-2016-2177"
+    ],
+    "advisories": [
+      "ASA-201609-24"
+    ]
+  },
+  {
+    "name": "AVG-29",
+    "packages": [
+      "openssl"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "1.0.2.h-1",
+    "fixed": "1.0.2.i-1",
+    "ticket": "49616",
+    "issues": [
+      "CVE-2016-6306",
+      "CVE-2016-6304",
+      "CVE-2016-6303",
+      "CVE-2016-6302",
+      "CVE-2016-2183",
+      "CVE-2016-2182",
+      "CVE-2016-2181",
+      "CVE-2016-2180",
+      "CVE-2016-2179",
+      "CVE-2016-2178",
+      "CVE-2016-2177"
+    ],
+    "advisories": [
+      "ASA-201609-23"
+    ]
+  },
+  {
+    "name": "AVG-28",
+    "packages": [
+      "irssi"
+    ],
+    "status": "Not affected",
+    "severity": "High",
+    "type": "arbitrary code execution",
+    "affected": "0.8.19-2",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7044"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-27",
+    "packages": [
+      "irssi"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "arbitrary code execution",
+    "affected": "0.8.19-2",
+    "fixed": "0.8.20-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7045"
+    ],
+    "advisories": [
+      "ASA-201609-20"
+    ]
+  },
+  {
+    "name": "AVG-10",
+    "packages": [
+      "hostapd"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "2.5-2",
+    "fixed": "2.6-1",
+    "ticket": "49196",
+    "issues": [
+      "CVE-2016-4477",
+      "CVE-2016-4476"
+    ],
+    "advisories": [
+      "ASA-201610-3"
+    ]
+  },
+  {
+    "name": "AVG-11",
+    "packages": [
+      "wpa_supplicant"
+    ],
+    "status": "Fixed",
+    "severity": "High",
+    "type": "multiple issues",
+    "affected": "1:2.5-3",
+    "fixed": "1:2.6-1",
+    "ticket": "49196",
+    "issues": [
+      "CVE-2016-4477",
+      "CVE-2016-4476"
+    ],
+    "advisories": [
+      "ASA-201610-7"
+    ]
+  },
+  {
+    "name": "AVG-77",
+    "packages": [
+      "slock"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "access restriction bypass",
+    "affected": "1.3-1",
+    "fixed": "1.4-2",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-6866"
+    ],
+    "advisories": [
+      "ASA-201611-21"
+    ]
+  },
+  {
+    "name": "AVG-75",
+    "packages": [
+      "drupal"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "open redirect",
+    "affected": "7.51-1",
+    "fixed": "7.52-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9451"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-74",
+    "packages": [
+      "drupal"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "multiple issues",
+    "affected": "8.2.2-1",
+    "fixed": "8.2.3-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9452",
+      "CVE-2016-9450",
+      "CVE-2016-9449"
+    ],
+    "advisories": [
+      "ASA-201611-20"
+    ]
+  },
+  {
+    "name": "AVG-71",
+    "packages": [
+      "cryptsetup"
+    ],
+    "status": "Not affected",
+    "severity": "Medium",
+    "type": "access restriction bypass",
+    "affected": "1.7.3-1",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-4484"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-70",
+    "packages": [
+      "shutter"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "arbitrary code execution",
+    "affected": "0.93.1-2",
+    "fixed": "0.93.1-3",
+    "ticket": "50735",
+    "issues": [
+      "CVE-2015-0854"
+    ],
+    "advisories": [
+      "ASA-201611-13"
+    ]
+  },
+  {
+    "name": "AVG-64",
+    "packages": [
+      "tar"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "arbitrary file overwrite",
+    "affected": "1.29-1",
+    "fixed": "1.29-2",
+    "ticket": "51563",
+    "issues": [
+      "CVE-2016-6321"
+    ],
+    "advisories": [
+      "ASA-201611-11"
+    ]
+  },
+  {
+    "name": "AVG-51",
+    "packages": [
+      "tomcat6"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "proxy injection",
+    "affected": "6.0.45-1",
+    "fixed": "6.0.47-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5388"
+    ],
+    "advisories": [
+      "ASA-201611-6"
+    ]
+  },
+  {
+    "name": "AVG-44",
+    "packages": [
+      "messagelib"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "multiple issues",
+    "affected": "16.08.1-1",
+    "fixed": "16.08.1-2",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7968",
+      "CVE-2016-7967"
+    ],
+    "advisories": [
+      "ASA-201610-5"
+    ]
+  },
+  {
+    "name": "AVG-43",
+    "packages": [
+      "kcoreaddons"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "insufficient validation",
+    "affected": "5.26.0-1",
+    "fixed": "5.26.0-2",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7966"
+    ],
+    "advisories": [
+      "ASA-201610-4"
+    ]
+  },
+  {
+    "name": "AVG-35",
+    "packages": [
+      "python-django",
+      "python2-django"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "cross-site request forgery",
+    "affected": "1.9.9-1",
+    "fixed": "1.10.1-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7401"
+    ],
+    "advisories": [
+      "ASA-201610-13",
+      "ASA-201610-12"
+    ]
+  },
+  {
+    "name": "AVG-34",
+    "packages": [
+      "lib32-openssl"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "denial of service",
+    "affected": "1:1.0.2.i-1",
+    "fixed": "1:1.0.2.j-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7052"
+    ],
+    "advisories": [
+      "ASA-201609-28"
+    ]
+  },
+  {
+    "name": "AVG-33",
+    "packages": [
+      "openssl"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "denial of service",
+    "affected": "1.0.2.i-1",
+    "fixed": "1.0.2.j-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7052"
+    ],
+    "advisories": [
+      "ASA-201609-30"
+    ]
+  },
+  {
+    "name": "AVG-26",
+    "packages": [
+      "gnutls"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "certificate verification bypass",
+    "affected": "3.4.14-1",
+    "fixed": "3.4.15-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7444"
+    ],
+    "advisories": [
+      "ASA-201609-25"
+    ]
+  },
+  {
+    "name": "AVG-25",
+    "packages": [
+      "tomcat8"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "proxy injection",
+    "affected": "8.0.36-1",
+    "fixed": "8.0.37-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5388"
+    ],
+    "advisories": [
+      "ASA-201609-7"
+    ]
+  },
+  {
+    "name": "AVG-23",
+    "packages": [
+      "tomcat7"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "proxy injection",
+    "affected": "7.0.70-1",
+    "fixed": "7.0.72-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-5388"
+    ],
+    "advisories": [
+      "ASA-201609-21"
+    ]
+  },
+  {
+    "name": "AVG-19",
+    "packages": [
+      "jansson"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "denial of service",
+    "affected": "2.7-1",
+    "fixed": "2.8-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-4425"
+    ],
+    "advisories": [
+      "ASA-201609-15"
+    ]
+  },
+  {
+    "name": "AVG-18",
+    "packages": [
+      "crypto++"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "information disclosure",
+    "affected": "5.6.4-2",
+    "fixed": "5.6.5-1",
+    "ticket": "51331",
+    "issues": [
+      "CVE-2016-7420"
+    ],
+    "advisories": [
+      "ASA-201610-8"
+    ]
+  },
+  {
+    "name": "AVG-17",
+    "packages": [
+      "lib32-gnutls"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "certificate verification bypass",
+    "affected": "3.4.14-1",
+    "fixed": "3.4.15-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7444"
+    ],
+    "advisories": [
+      "ASA-201609-26"
+    ]
+  },
+  {
+    "name": "AVG-3",
+    "packages": [
+      "wireshark-cli"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "denial of service",
+    "affected": "2.0.5-1",
+    "fixed": "2.2.0-2",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7180",
+      "CVE-2016-7179",
+      "CVE-2016-7178",
+      "CVE-2016-7177",
+      "CVE-2016-7176",
+      "CVE-2016-7175"
+    ],
+    "advisories": [
+      "ASA-201609-27"
+    ]
+  },
+  {
+    "name": "AVG-12",
+    "packages": [
+      "lib32-jansson"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "denial of service",
+    "affected": "2.7-2",
+    "fixed": "2.8-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-4425"
+    ],
+    "advisories": [
+      "ASA-201609-17"
+    ]
+  },
+  {
+    "name": "AVG-13",
+    "packages": [
+      "ocaml"
+    ],
+    "status": "Fixed",
+    "severity": "Medium",
+    "type": "information disclosure",
+    "affected": "4.02.3-2",
+    "fixed": "4.03.0-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2015-8869"
+    ],
+    "advisories": [
+      "ASA-201610-17"
+    ]
+  },
+  {
+    "name": "AVG-100",
+    "packages": [
+      "python-html5lib",
+      "python2-html5lib"
+    ],
+    "status": "Fixed",
+    "severity": "Low",
+    "type": "cross-site scripting",
+    "affected": "0.9999999-2",
+    "fixed": "0.99999999-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-9910",
+      "CVE-2016-9909"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-45",
+    "packages": [
+      "libgit2"
+    ],
+    "status": "Fixed",
+    "severity": "Low",
+    "type": "denial of service",
+    "affected": "1:0.24.2-1",
+    "fixed": "1:0.24.3-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-8569",
+      "CVE-2016-8568"
+    ],
+    "advisories": [
+      "ASA-201611-17"
+    ]
+  },
+  {
+    "name": "AVG-41",
+    "packages": [
+      "ffmpeg"
+    ],
+    "status": "Not affected",
+    "severity": "Low",
+    "type": "arbitrary code execution",
+    "affected": "1:3.1.3-3",
+    "fixed": null,
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7554"
+    ],
+    "advisories": []
+  },
+  {
+    "name": "AVG-21",
+    "packages": [
+      "lib32-curl"
+    ],
+    "status": "Fixed",
+    "severity": "Low",
+    "type": "denial of service",
+    "affected": "7.50.2-1",
+    "fixed": "7.50.3-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7167"
+    ],
+    "advisories": [
+      "ASA-201609-18"
+    ]
+  },
+  {
+    "name": "AVG-20",
+    "packages": [
+      "curl"
+    ],
+    "status": "Fixed",
+    "severity": "Low",
+    "type": "denial of service",
+    "affected": "7.50.2-1",
+    "fixed": "7.50.3-1",
+    "ticket": null,
+    "issues": [
+      "CVE-2016-7167"
+    ],
+    "advisories": [
+      "ASA-201609-19"
+    ]
+  }
+]

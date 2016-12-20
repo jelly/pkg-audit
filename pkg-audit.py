@@ -72,8 +72,9 @@ def parse_args():
     parser.add_argument('--sync', dest='sync', action='store_true',
             help='Sync the Pacman database before checking vulnerabilities (requires sudo)')
     parser.add_argument('-V', '--version', action='version', version='%(prog)s (version {})'.format(VERSION))
-    return parser.parse_args()
+    return parser
 
 
 if __name__ == '__main__':
-    main(parse_args())
+    parser = parse_args()
+    main(parser.parse_args())

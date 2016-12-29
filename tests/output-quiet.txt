@@ -1,0 +1,5 @@
+openjpeg2=2.1.2-2
+libtiff=4.0.7-2
+jasper=1.900.31-1
+bzip2=1.0.6-5
+openssl=1.0.2.j-1

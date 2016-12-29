@@ -7,6 +7,7 @@ from unittest import TestCase
 # Can't import pkg-audit with import, so the ugly way
 exec(open('pkg-audit.py').read())
 result = open('tests/output.txt').read()
+result_quiet = open('tests/output-quiet.txt').read()
 parser = parse_args()
 
 class PkgAudit(TestCase):
@@ -32,6 +33,11 @@ class PkgAudit(TestCase):
     def test_vulnerable(self):
         output = self.execute(['--vulnerable'])
         self.assertEqual(output, result)
+
+    def test_quiet(self):
+        output = self.execute(['--quiet'])
+        self.assertEqual(output, result_quiet)
+
         
     def test_noargs(self):
         output = self.execute()

@@ -47,24 +47,32 @@ def main(options):
         # for every pkg, check if affected
         for pkg in pkgs:
             if avg['status'] == 'Vulnerable' and options.upgradable:
+                if options.quiet:
+                    print('{}={}'.format(pkg.name, pkg.version))
+                else:
                     print('{}-{} is vulnerable to {}'.format(pkg.name, pkg.version, avg['type']))
                     print('No fixed package in the repositories.')
                     print('AVG: {}/{}'.format(API_URL, avg['name']))
                     print('')
             elif avg['status'] in status and options.vulnerable:
                 if vercmp(pkg.version, avg['fixed']) < 0:
-                    print('{}-{} is vulnerable to {}'.format(pkg.name, pkg.version, avg['type']))
-                    print('Upgrade to {}'.format(avg['fixed']))
-                    print('AVG: {}/{}'.format(API_URL, avg['name']))
-                    for advisory in avg['advisories']:
-                        print('Advisory: {}/{}/raw'.format(API_URL, advisory))
-                    print('')
+                    if options.quiet:
+                        print('{}={}'.format(pkg.name, pkg.version))
+                    else:
+                        print('{}-{} is vulnerable to {}'.format(pkg.name, pkg.version, avg['type']))
+                        print('Upgrade to {}'.format(avg['fixed']))
+                        print('AVG: {}/{}'.format(API_URL, avg['name']))
+                        for advisory in avg['advisories']:
+                            print('Advisory: {}/{}/raw'.format(API_URL, advisory))
+                        print('')
 
 
 def parse_args():
     parser = argparse.ArgumentParser(description='audit installed packages against known vulnerabilities')
     parser.add_argument('-f', '--file', type=argparse.FileType('r'),
             help='Load advisories from a JSON file.')
+    parser.add_argument('-q', '--quiet', action='store_true',
+            help='Only print affected packages and the package version.')
     parser.add_argument('--upgradable', dest='upgradable', action='store_false',
             help='Filter on packages which vulernablilties are fixed by performing a system upgrade')
     parser.add_argument('--vulnerable', dest='vulnerable', action='store_false',

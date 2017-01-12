@@ -10,11 +10,12 @@ result = open('tests/output.txt').read()
 result_quiet = open('tests/output-quiet.txt').read()
 parser = parse_args()
 
+
 class PkgAudit(TestCase):
 
-    def execute(self, args = []):
+    def execute(self, args=[]):
         parsed = parser.parse_args(['--file', 'tests/avgs.json'] + args)
-        
+
         # Hack capturing stdout.
         backup = sys.stdout
         sys.stdout = StringIO()
@@ -38,8 +39,7 @@ class PkgAudit(TestCase):
         output = self.execute(['--quiet'])
         self.assertEqual(output, result_quiet)
 
-        
-    def test_noargs(self):
+    def test_args(self):
         output = self.execute()
         self.assertTrue('openjpeg' in output)
         self.assertEqual(output, result)

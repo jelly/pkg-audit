@@ -34,7 +34,7 @@ def main(options):
         data = json.load(options.file)
     else:
         # Fetch latest JSON API
-        r = requests.get(API_URL + '/json')
+        r = requests.get(API_URL + '/issues/all.json')
         data = r.json()
 
     for avg in data:
